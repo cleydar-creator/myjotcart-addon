@@ -1,19 +1,20 @@
 # MyJotCart
 
-Listas de la compra compartidas por toda la casa (por supermercado, en vivo) e inventario de casa.
+Shared shopping lists for the whole household (per store, live sync) and a home pantry.
+Languages: English, Español, Deutsch, Français, Português — chosen from the phone's language, changeable in **Settings → Language**.
 
-## Primer uso
-1. Instala el add-on, actívalo y pulsa **Abrir interfaz web** (o *Mostrar en la barra lateral*).
-2. Crea tu usuario con una clave de 4 a 8 números. Después, en **Ajustes**, añade al resto de la casa.
+## First use
+1. Install the add-on, start it and click **Open Web UI** (or enable *Show in sidebar*).
+2. Create your user with a 4–8 digit PIN. Then add the rest of the household in **Settings**.
 
-## Desde el móvil
-- Dentro de la app de Home Assistant: menú lateral → **MyJotCart**.
-- O directamente en la red de casa: `http://<ip-de-home-assistant>:8210`.
-- La cámara para escanear códigos necesita **https** (Nabu Casa o tu dominio). Sin https puedes escribir el código o usar la foto.
+## On your phone
+- In the Home Assistant app: side menu → **MyJotCart**.
+- Or directly on your home network: `http://<home-assistant-ip>:8210`.
+- Live barcode scanning with the camera needs **https** (Nabu Casa or your own domain). Without https you can type the code or use a photo.
 
-## Escáner de cocina (ESP32)
-En **Ajustes → Escáner de la cocina** se crea el código del aparato. El aparato llama a
-`http://<ip-de-home-assistant>:8210/api/device/scan`.
+## Kitchen scanner (ESP32)
+Create the device code in **Settings → Kitchen scanner**. The device calls
+`http://<home-assistant-ip>:8210/api/device/scan`.
 
-## Datos
-Todo se guarda en tu Home Assistant (carpeta del add-on) y entra en sus copias de seguridad.
+## Data
+Everything stays in your Home Assistant (the add-on's folder) and is included in its backups.
