@@ -1,0 +1,19 @@
+name: MyJotCart
+version: "0.1.0"
+slug: myjotcart
+description: Listas de la compra compartidas e inventario de casa, con escáner de códigos
+url: https://github.com/cleydar-creator/myjotcart-addon
+arch:
+  - amd64
+  - aarch64
+image: ghcr.io/cleydar-creator/myjotcart
+startup: application
+boot: auto
+ingress: true
+ingress_port: 8210
+panel_icon: mdi:cart-outline
+panel_title: MyJotCart
+ports:
+  8210/tcp: 8210
+ports_description:
+  8210/tcp: "Acceso directo desde el móvil y el escáner ESP32 (puedes dejarlo vacío para desactivarlo)"
