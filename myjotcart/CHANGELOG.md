@@ -1,3 +1,6 @@
+## 0.5.2
+- The title row is back inside Home Assistant (0.5.1 hid it); just a little less space above the title.
+
 ## 0.5.1
 - Less empty space at the top: inside Home Assistant (panel, card, dashboards) the title row is hidden, since the frame already shows it.
 
