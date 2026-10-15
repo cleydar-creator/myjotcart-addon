@@ -1,3 +1,6 @@
+## 0.5.1
+- Less empty space at the top: inside Home Assistant (panel, card, dashboards) the title row is hidden, since the frame already shows it.
+
 ## 0.5.0
 - Settings → App name: call the app whatever your household calls it (header, title and phone icon). Empty = MyJotCart.
 
