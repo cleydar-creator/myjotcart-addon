@@ -1,5 +1,5 @@
 name: MyJotCart
-version: "0.2.0"
+version: "0.3.0"
 slug: myjotcart
 description: Shared shopping lists and home pantry, with barcode scanner (EN, ES, DE, FR, PT)
 url: https://github.com/cleydar-creator/myjotcart-addon
@@ -13,6 +13,9 @@ ingress: true
 ingress_port: 8210
 panel_icon: mdi:cart-outline
 panel_title: MyJotCart
+hassio_api: true
+discovery:
+  - myjotcart
 ports:
   8210/tcp: 8210
 ports_description:
