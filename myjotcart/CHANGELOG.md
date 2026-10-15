@@ -1,3 +1,6 @@
+## 0.5.0
+- Settings → App name: call the app whatever your household calls it (header, title and phone icon). Empty = MyJotCart.
+
 ## 0.4.1
 - Every Home Assistant user of the household can open MyJotCart (sidebar, dashboard card), not only administrators. MyJotCart keeps its own PIN per person.
 
