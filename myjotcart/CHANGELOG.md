@@ -1,3 +1,6 @@
+## 0.4.1
+- Every Home Assistant user of the household can open MyJotCart (sidebar, dashboard card), not only administrators. MyJotCart keeps its own PIN per person.
+
 ## 0.4.0
 - Settings → Backup: download everything in one file and restore it (also to move to another installation). AI keys are not included; the Home Assistant connection is kept.
 
