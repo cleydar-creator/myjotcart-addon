@@ -1,3 +1,7 @@
+## 0.6.1
+- Shop: **Add a receipt or invoice** button at the top, above the stores (Pro).
+- Settings → Home Assistant: with the add-on it just says **Connected** — nothing to do. Tokens for MyJotCart outside Home Assistant are under *Advanced options*.
+
 ## 0.6.0
 - **MyJotCart Pro**: the AI features (photo → product, receipts, recipes, smart aisles, online cart) are now part of Pro — a one-time €2.50 "coffee" at [myjotcart.com](https://myjotcart.com/#pro), for one home. Everything else stays free.
 - Settings → Artificial intelligence: paste your key and press **Activate** (needs internet once). *Deactivate in this home* frees the key to use it on another installation.
