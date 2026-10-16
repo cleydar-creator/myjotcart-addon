@@ -10,7 +10,18 @@ Languages: English, Español, Deutsch, Français, Português — chosen from the
 ## On your phone
 - In the Home Assistant app: side menu → **MyJotCart**.
 - Or directly on your home network: `http://<home-assistant-ip>:8210`.
-- Live barcode scanning with the camera needs **https** (Nabu Casa or your own domain). Without https you can type the code or use a photo.
+- Live barcode scanning with the camera needs **https** — see *Access* below.
+
+## Access: http, https and the camera
+
+MyJotCart doesn't need its own certificate or domain. There are two ways in:
+
+| | How | http or https? |
+|---|---|---|
+| **Through Home Assistant** (sidebar, Home Assistant app, dashboard card) | Home Assistant *ingress*: the app is served inside Home Assistant, at Home Assistant's own address and with its login | Whatever Home Assistant uses. If you open Home Assistant with https (Nabu Casa or your own domain), MyJotCart is https too; also from outside home |
+| **Direct, on your home network** | `http://<home-assistant-ip>:8210` (the port in the add-on's *Network* settings; leave it empty to turn it off) | Plain http, only inside your network. Handy as a home-screen app on phones, and it's what the ESP32 kitchen scanner uses |
+
+Everything works over plain http **except the live camera scanner**: browsers only allow the camera on https pages. Without https MyJotCart tells you so and lets you type the barcode number instead. To scan with the camera, open Home Assistant through its https address and use MyJotCart from there.
 
 ## Lists on your dashboard and by voice
 Install the **MyJotCart integration** from HACS (custom repository `https://github.com/cleydar-creator/myjotcart-ha`, type Integration) and restart Home Assistant.
