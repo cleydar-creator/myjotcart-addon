@@ -62,7 +62,9 @@ Everything above is **free**. **MyJotCart Pro** unlocks the AI features — for 
 - 🍳 **Recipes**: checks what you have at home and adds what's missing to your list.
 - 🗂️ **Smart aisles**: new products go to the right aisle automatically.
 
-AI uses **your own** Claude, ChatGPT or Gemini API key (cents per receipt, billed by the provider). Activate the key in **Settings → Artificial intelligence**; it needs internet once, then it's checked locally.
+> ⚠️ **You need your own AI API key** from **Anthropic (Claude)**, **OpenAI (ChatGPT)** or **Google (Gemini)** — get one at [console.anthropic.com](https://console.anthropic.com/settings/keys), [platform.openai.com](https://platform.openai.com/api-keys) or [aistudio.google.com](https://aistudio.google.com/apikey). Pro unlocks the features in MyJotCart; the AI usage is billed by that provider on your account (a few cents per receipt). A ChatGPT Plus or Claude Pro subscription is **not** an API key.
+
+In **Settings → Artificial intelligence**: activate your Pro key (needs internet once, then it is checked locally) and paste your AI API key.
 
 ## Support
 
