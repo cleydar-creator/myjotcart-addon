@@ -21,12 +21,12 @@
 
 ## Install
 
-Requires **Home Assistant OS or Supervised** (add-ons).
+Requires **Home Assistant OS or Supervised** (add-ons, called *Apps* in recent versions) on a **64-bit** system (amd64 or aarch64, e.g. a Raspberry Pi 4/5 with the 64-bit OS, a mini PC or a VM).
 
-1. Click the **Add repository** button above, or go to **Settings → Add-ons → Add-on store → ⋮ → Repositories** and add
+1. Click the **Add repository** button above, or go to **Settings → Apps → App store → ⋮ → Repositories** (*Add-ons → Add-on store* in older versions) and add
    `https://github.com/cleydar-creator/myjotcart-addon`
 2. Find **MyJotCart** in the store, click **Install**, then **Start**.
-3. **MyJotCart** appears in the sidebar (cart icon). If it doesn't: add-on page → turn on **Show in sidebar**.
+3. **MyJotCart** appears in the sidebar (cart icon). If it doesn't: MyJotCart's page in Settings → Apps → turn on **Show in sidebar**.
 4. Create your user with a 4–8 digit PIN, then add the rest of the household in **Settings**.
 
 On phones, open it from the Home Assistant app's side menu, or add it to the home screen (Safari: Share → *Add to Home Screen*; Chrome: ⋮ → *Add to Home screen*). Live camera scanning needs https — see below.
@@ -68,4 +68,5 @@ In **Settings → Artificial intelligence**: activate your Pro key (needs intern
 
 ## Support
 
-Questions and ideas: open an [issue](https://github.com/cleydar-creator/myjotcart-addon/issues).
+- Bugs and ideas: open an [issue](https://github.com/cleydar-creator/myjotcart-addon/issues) (it's public — never paste keys).
+- Your purchase or your Pro key: [myjotcart.com → Help & contact](https://myjotcart.com/#contact).

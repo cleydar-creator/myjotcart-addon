@@ -32,5 +32,14 @@ Install the **MyJotCart integration** from HACS (custom repository `https://gith
 Create the device code in **Settings → Kitchen scanner**. The device calls
 `http://<home-assistant-ip>:8210/api/device/scan`.
 
+## AI features (MyJotCart Pro)
+Photo → product, receipts and invoices, recipes and smart aisles are part of **MyJotCart Pro**: a one-time €2.50 for one home at https://myjotcart.com/#pro. Everything else is free.
+- **You need your own AI API key** from Anthropic (Claude), OpenAI (ChatGPT) or Google (Gemini). The AI usage is billed by that provider (a few cents per receipt). A ChatGPT Plus or Claude Pro subscription is not an API key.
+- In **Settings → Artificial intelligence**: paste your Pro key and press **Activate** (needs internet once), then add your AI key.
+- Moving to another Home Assistant: *Deactivate in this home*, then activate the key there.
+
 ## Data
-Everything stays in your Home Assistant (the add-on's folder) and is included in its backups.
+Everything stays in your Home Assistant (the add-on's folder) and is included in its backups. **Settings → Backup** also downloads everything in one file (without AI keys).
+
+## Help
+Bugs and ideas: https://github.com/cleydar-creator/myjotcart-addon/issues · Purchase or key: https://myjotcart.com/#contact

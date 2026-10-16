@@ -1,3 +1,7 @@
+## 0.6.2
+- Camera scanner without https: the hint only mentions *Take photo* when that button is available (Pro).
+- Documentation tab: AI features (Pro) and your own AI API key, backup, help links.
+
 ## 0.6.1
 - Shop: **Add a receipt or invoice** button at the top, above the stores (Pro).
 - Settings → Home Assistant: with the add-on it just says **Connected** — nothing to do. Tokens for MyJotCart outside Home Assistant are under *Advanced options*.
