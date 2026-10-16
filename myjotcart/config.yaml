@@ -1,5 +1,5 @@
 name: MyJotCart
-version: "0.5.2"
+version: "0.6.0"
 slug: myjotcart
 description: Shared shopping lists and home pantry, with barcode scanner (EN, ES, DE, FR, PT)
 url: https://github.com/cleydar-creator/myjotcart-addon

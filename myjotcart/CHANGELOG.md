@@ -1,3 +1,7 @@
+## 0.6.0
+- **MyJotCart Pro**: the AI features (photo → product, receipts, recipes, smart aisles, online cart) are now part of Pro — a one-time €2.50 "coffee" at [myjotcart.com](https://myjotcart.com/#pro), for one home. Everything else stays free.
+- Settings → Artificial intelligence: paste your key and press **Activate** (needs internet once). *Deactivate in this home* frees the key to use it on another installation.
+
 ## 0.5.2
 - The title row is back inside Home Assistant (0.5.1 hid it); just a little less space above the title.
 
